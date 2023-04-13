@@ -10,6 +10,7 @@
 4. 🤞 **Demo**: 'hydraconda' contrived project
 
 note: more talk about the problem, less the tool
+
 ---
 # 1. 🚂  Motivation:  
 ## Data Science is Messy
@@ -17,7 +18,8 @@ note: more talk about the problem, less the tool
 ---
 ## Fast iteration makes for a good workflow
 
-![[process.jpg]]
+![process](./process.jpg)
+
 [The Data Science Workflow, Matt Dancho](https://www.linkedin.com/pulse/data-science-workflow-matt-dancho) 
 * Business iteration ..._coupled with_
 * ...Technical iteration 🔍
@@ -60,7 +62,9 @@ What enables a workflow? How to configure and structure tools?
 * Data+Code
 	* (computational) experiments
 	* pipelines
+
 note: talk will not focus on tools for the above
+
 --
 ### Code should define everything
 ```mermaid
@@ -202,8 +206,8 @@ graph LR
 dataIn{{horrible.csv}} --> clean --> esotericAnalysis --> dataOut{{dataOut}}
 ```
 **benefit**: multiple skillsets working together
-note:
-makes heavy use of env wrappers
+
+note: makes heavy use of env wrappers
 
 ---
 ## Scenario: Controlled Notebook Computing
@@ -273,12 +277,13 @@ graph BT
 * `environment.devenv.template.yml` controls composition
 * 'project' ('root')
 	- everything depends on it: even installs `git`
+
 --
 #### Specific
 * 'data'
 	* just data reading capability
 * 'exploration'
-	* depends on data
+	* depends on 'data' and 'notebooking'
 * 'notebooking'
 	* ipykernel installed by dep envs
 	* script that gathers kernels
