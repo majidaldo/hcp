@@ -47,7 +47,7 @@ dependencies:
   # data/non-source file mgt.
   - dvc               # [wrapped_exe]
   # https://github.com/iterative/dvc/issues/5787#issuecomment-817819112
-  - dvc-azure         # [wrapped_exe]
+  #- dvc-azure         # [wrapped_exe]
   #- pip                # [wrapped_exe]
   #- pip:               # [wrapped_exe]
    # - dvc[azure]      # [wrapped_exe]
