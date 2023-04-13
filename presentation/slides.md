@@ -8,6 +8,7 @@
 2. 💡 **Approach**: Use multiple related environments
 3. 🎉**Benefits**: _One_ system for _many_ scenarios
 4. 🤞 **Demo**: 'hydraconda' contrived project
+
 note: more talk about the problem, less the tool
 ---
 # 1. 🚂  Motivation:  
