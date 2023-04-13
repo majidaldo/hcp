@@ -126,6 +126,7 @@ moduleA -- usedBy --> explorationB
 dev-tools -- usedBy --> moduleA
 ```
 reusability via environments
+
 note: ...in contrast to creating s/w libraries
 abstractly, nothing new but creating env dep is new
 
@@ -184,7 +185,7 @@ compose step mainly handled by conda devenv
 stop here as most important concepts
 
 ---
-# 3. 💡 Benefits:
+# 3. 🎉 Benefits:
 ## _One_ System for _Many_ Scenarios
 ---
 ## Scenario: High-Level Data Processing
